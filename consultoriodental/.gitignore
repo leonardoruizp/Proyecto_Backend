@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# MariaDB / MySQL data files
+ib_buffer_pool
+ib_logfile*
+ibdata*
+aria_log*
+undo*
+mysql/
+performance_schema/
+sys/
