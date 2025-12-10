@@ -32,12 +32,19 @@ build/
 ### VS Code ###
 .vscode/
 
-# MariaDB / MySQL data files
-ib_buffer_pool
-ib_logfile*
-ibdata*
-aria_log*
-undo*
+# IGNORAR archivos de MariaDB
 mysql/
-performance_schema/
 sys/
+performance_schema/
+*.frm
+*.opt
+*.ibd
+*.myd
+*.myi
+*.arm
+*.cnf
+*.log
+ib_*
+tc.log
+undo*
+aria_log*
