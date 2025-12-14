@@ -157,23 +157,23 @@ curl -X DELETE http://localhost:8080/citas/1
 Obtener citas usando GET:
 
 ```bash
-curl -X GET https://proyectobackend-production-19cb.up.railway.app/citas
+curl -X GET https://proyectobackend-production-0ab7.up.railway.app/citas
 ```
 
 Crear una cita usando POST:
 
 ```bash
-curl -X POST -H "Content-Type:application/json" -d '{"paciente":"Juan Perez","motivo":"Limpieza","fecha":"2025-01-10","hora":"10:00"}' https://proyectobackend-production-19cb.up.railway.app/citas
+curl -X POST -H "Content-Type:application/json" -d '{"paciente":"Juan Perez","motivo":"Limpieza","fecha":"2025-01-10","hora":"10:00"}' https://proyectobackend-production-0ab7.up.railway.app/citas
 ```
 
 Actualizar una cita usando PUT:
 
 ```bash
-curl -X PUT -H "Content-Type:application/json" -d '{"paciente":"Juan Perez","motivo":"Extracción","fecha":"2025-01-11","hora":"12:00","estado":"pendiente"}' https://proyectobackend-production-19cb.up.railway.app/citas/1
+curl -X PUT -H "Content-Type:application/json" -d '{"paciente":"Juan Perez","motivo":"Extracción","fecha":"2025-01-11","hora":"12:00","estado":"pendiente"}' https://proyectobackend-production-0ab7.up.railway.app/citas/1
 ```
 
 Eliminar una cita usando DELETE:
 
 ```bash
-curl -X DELETE https://proyectobackend-production-19cb.up.railway.app/citas/1
+curl -X DELETE https://proyectobackend-production-0ab7.up.railway.app/citas/1
 ```
